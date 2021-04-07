@@ -1,0 +1,89 @@
+body {
+  background-color: black;
+  max-width: 100%;
+}
+
+#logo {
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	width: 200px;
+}
+
+#map {
+  height: 500px;
+  max-width: 100%;
+  margin: 15px;
+}
+
+.mapboxgl-popup {
+	max-width: 600px;
+	font: 35px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+.mapboxgl-popup-content {
+	width: 150px;
+}
+
+#text {
+	font-size: 10px;
+}
+
+.mapboxgl-popup-content{
+	background-color: #4db300;
+	color: white;
+	padding: 15px 20px 20px 15px;
+	font-size: 14px;
+	text-align: center;
+	
+}
+
+.mapboxgl-popup-close-button{
+	outline: none;
+	color: white;
+	font-size: 15px;
+}
+
+#date {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+
+/* vanaf 680 */
+
+@media only screen and (min-width: 680px) {
+
+	#logo {
+		padding-top: 15px;
+		width: 250px;
+	}
+
+} 
+
+/* vanaf 800 */
+
+@media only screen and (min-width: 800px) {
+
+	#text {
+		font-size: 15px;
+	}
+
+	#date {
+  		font-size: 20px;
+  		color: white;
+  		text-align: center;
+	}
+
+} 
+
+/* vanaf 1200 */
+
+@media only screen and (min-width: 1200px) {
+
+	#map {
+	  margin: 40px;
+	}
+
+} 
